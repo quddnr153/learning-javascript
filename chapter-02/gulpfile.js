@@ -1,6 +1,13 @@
 const gulp = require('gulp');
-// write gulp dependencies
+const babel = require('gulp-babel');
 
 gulp.task('default', function() {
-	// write gulp tasks	
+	// node sources
+	gulp.src("es6/**/*.js")
+		.pipe(babel())
+		.pipe(gulp.dest("dest"));
+	// Browser sources
+	gulp.src("public/es6/**/*.js");
+		.pipe(babel())
+		.pipe(gulp.dest("public/dist"));
 });
