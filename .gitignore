@@ -1,0 +1,12 @@
+# npm debug log
+npm-debug.log*
+
+# Project dependency
+node_modules
+
+# maxOS folder properties
+.DS_Store
+
+# temporary file
+*.tmp
+*~
