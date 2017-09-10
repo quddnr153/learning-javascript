@@ -1,0 +1,22 @@
+{
+  "name": "learning-javascript",
+  "version": "1.0.0",
+  "description": "learning javascript description",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quddnr153/learning-javascript.git"
+  },
+  "author": "Byungwook Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quddnr153/learning-javascript/issues"
+  },
+  "homepage": "https://github.com/quddnr153/learning-javascript#readme",
+  "dependencies": {
+    "underscore": "^1.8.3"
+  }
+}
